@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.table-container {
+table{
     margin-top: 2rem;
     overflow-x: auto;
 }
 
-.table {
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.table th, .table td {
+table th, table td {
     padding: 12px 15px;
     border: 1px solid #e2e8f0;
 }
 
-.table th {
+table th {
     background-color: #4f46e5;
     color: #ffffff;
     font-weight: bold;
     text-align: left;
 }
 
-.table tr:nth-child(even) {
+table tr:nth-child(even) {
     background-color: #f9fafb;
 }
 
-.table tr:hover {
+table tr:hover {
     background-color: #e2e8f0;
 }
